@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+#quote-box {
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 300px;
+    padding: 2rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.quoteContent {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#text {
+    font-size: 17px;
+    word-wrap: break-word;
+}
+
+#author {
+    text-align: right;
+}
+
+
+#new-quote, a {
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6rem 1.2rem;
+    width: fit-content;
+    font-weight: 500;
+    background: #1a1a1a;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+#tweet-quote {
+    margin: 0 5px;
+}
